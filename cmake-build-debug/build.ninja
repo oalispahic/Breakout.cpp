@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/omaralispahic/Documents/projekti/Breakout++/cmake-b
 
 build cmake_object_order_depends_target_Breakout__: phony || CMakeFiles/Breakout__.dir
 
-build CMakeFiles/Breakout__.dir/library.cpp.o: CXX_COMPILER__Breakout___unscanned_Debug /Users/omaralispahic/Documents/projekti/Breakout++/library.cpp || cmake_object_order_depends_target_Breakout__
-  DEP_FILE = CMakeFiles/Breakout__.dir/library.cpp.o.d
+build CMakeFiles/Breakout__.dir/game.cpp.o: CXX_COMPILER__Breakout___unscanned_Debug /Users/omaralispahic/Documents/projekti/Breakout++/game.cpp || cmake_object_order_depends_target_Breakout__
+  DEP_FILE = CMakeFiles/Breakout__.dir/game.cpp.o.d
   FLAGS = -g -std=gnu++20 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Breakout__.dir
   OBJECT_FILE_DIR = CMakeFiles/Breakout__.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Breakout__.dir/library.cpp.o: CXX_COMPILER__Breakout___unscanne
 #############################################
 # Link the static library libBreakout__.a
 
-build libBreakout__.a: CXX_STATIC_LIBRARY_LINKER__Breakout___Debug CMakeFiles/Breakout__.dir/library.cpp.o
+build libBreakout__.a: CXX_STATIC_LIBRARY_LINKER__Breakout___Debug CMakeFiles/Breakout__.dir/game.cpp.o
   ARCH_FLAGS = -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Breakout__.dir
@@ -81,8 +81,8 @@ build libBreakout__.a: CXX_STATIC_LIBRARY_LINKER__Breakout___Debug CMakeFiles/Br
 
 build cmake_object_order_depends_target_breakoutexe: phony || CMakeFiles/breakoutexe.dir
 
-build CMakeFiles/breakoutexe.dir/library.cpp.o: CXX_COMPILER__breakoutexe_unscanned_Debug /Users/omaralispahic/Documents/projekti/Breakout++/library.cpp || cmake_object_order_depends_target_breakoutexe
-  DEP_FILE = CMakeFiles/breakoutexe.dir/library.cpp.o.d
+build CMakeFiles/breakoutexe.dir/game.cpp.o: CXX_COMPILER__breakoutexe_unscanned_Debug /Users/omaralispahic/Documents/projekti/Breakout++/game.cpp || cmake_object_order_depends_target_breakoutexe
+  DEP_FILE = CMakeFiles/breakoutexe.dir/game.cpp.o.d
   FLAGS = -g -std=gnu++20 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/breakoutexe.dir
   OBJECT_FILE_DIR = CMakeFiles/breakoutexe.dir
@@ -95,7 +95,7 @@ build CMakeFiles/breakoutexe.dir/library.cpp.o: CXX_COMPILER__breakoutexe_unscan
 #############################################
 # Link the executable breakoutexe
 
-build breakoutexe: CXX_EXECUTABLE_LINKER__breakoutexe_Debug CMakeFiles/breakoutexe.dir/library.cpp.o
+build breakoutexe: CXX_EXECUTABLE_LINKER__breakoutexe_Debug CMakeFiles/breakoutexe.dir/game.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk
   OBJECT_DIR = CMakeFiles/breakoutexe.dir
   POST_BUILD = :
