@@ -1,0 +1,7 @@
+#ifndef BREAKOUT___LIBRARY_H
+#define BREAKOUT___LIBRARY_H
+
+
+
+
+#endif //BREAKOUT___LIBRARY_H

@@ -1,0 +1,7 @@
+# ninja log v6
+3	1584	1753268209000674046	CMakeFiles/Breakout__.dir/library.cpp.o	dccca51cd35a400b
+1589	1698	1753268210586696158	libBreakout__.a	24f6633d027ac2a
+17	1431	1753268344725359235	CMakeFiles/Breakout__.dir/library.cpp.o	dccca51cd35a400b
+1431	1535	1753268346138535723	libBreakout__.a	24f6633d027ac2a
+8	1512	1753268477467779543	CMakeFiles/breakoutexe.dir/library.cpp.o	72257c9fdabba66b
+1512	1580	1753268478971933790	breakoutexe	90b32af254f2223f

@@ -1,0 +1,4 @@
+/Users/omaralispahic/Documents/projekti/Breakout++/cmake-build-debug/CMakeFiles/Breakout__.dir
+/Users/omaralispahic/Documents/projekti/Breakout++/cmake-build-debug/CMakeFiles/breakoutexe.dir
+/Users/omaralispahic/Documents/projekti/Breakout++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/omaralispahic/Documents/projekti/Breakout++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
