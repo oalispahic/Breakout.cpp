@@ -10,6 +10,7 @@ struct Point{
     int angleFactor;
 };
 
+
 class Paddle{
     Point * elements;
     int size = 0;

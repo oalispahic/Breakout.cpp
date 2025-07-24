@@ -14,7 +14,7 @@ int main() {
 
             if (input == 'q') break;
         }
-        Game::delay(25);
+        Game::delay(1);
 
     }
     Game::clearScreen();

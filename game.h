@@ -25,6 +25,9 @@ public:
     static void delay(int time);
 
     void commands(char input);
+
+    Point ball;
+
 };
 
 
@@ -87,13 +90,29 @@ void Game::commands(char input) {
 switch(input){
     case 'd':{
         player.updateX(1);
+        if(!validPaddlePos()){
+            player.updateX(-1);
+        }
         break;
     }
     case 'a':{
         player.updateX(-1);
+        if(!validPaddlePos()){
+            player.updateX(1);
+        }
         break;
     }
 }
+}
+
+bool Game::validPaddlePos() {
+    if(player.pointArray(player.paddleSize()-1).x == mapX-1){
+        return false;
+    }
+    if(player.pointArray(0).x == 0){
+        return false;
+    }
+    return true;
 }
 
 #endif //BREAKOUT___GAME_H
